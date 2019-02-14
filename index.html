@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Leaky Tap</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script type = "text/javascript" src="js/tap.js"></script>
+    </head>
+    <body>
+        
+        <div id = "onscreen">
+        	<h1 class = "heading">
+            Leaky Tap
+        </h1>
+            <img src="IMG/blood-drop.png" class ="dropimg" />
+        <h3>how much drops get leaked in 10 seconds?</h3>
+        <input type = "text" id = "droptext"/>
+        <p class = "desc">Observe the leaking tap for some time and enter the number of drops that gets leaked from the tap  in 5 seconds and make sure that you stop the leak the app after observing.</p>
+        <input type = "submit" class = "drbutton" onclick="ltap();"/>
+        </div>
+        <div id = "secscreen">
+            <div class = "fix">
+            <div class = "headtab">
+                <h1 class = "heading pos">
+                    Leaky Tap
+                </h1>
+                <img class = "back pos" src ="IMG/icons8-left-96.png" onclick="goback();"/>
+            </div>
+        </div>
+        <h2>This tap leaks approximately</h2>
+        <div class = "ldisp"><span id = "h">1</span> <b>Ls</b> in 1 hour</div>
+        <div class = "ldisp"><span id = "d">1</span> <b>Ls</b> in 1 day</div>
+        <div class = "ldisp"><span id = "w">1</span> <b>Ls</b> in 1 week</div>
+        <div class = "ldisp"><span id = "y">1</span> <b>Ls</b> in 1 year</div>
+        <p class = "desc"><span class ="fr">Around <b>700</b> million people in 43 countries suffer today from water scarcity and you can just bring down this number by closing the leak.</span></p>
+        <img class = "sad" src="IMG/sad.jpg"/>
+    </div>
+    </body>
+</html>
